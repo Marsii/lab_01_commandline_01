@@ -135,7 +135,7 @@ ls
 13.  Name one argument that we passed to the command.
 ----------
 
-
+Desktop
 
 ==========
 14.  Type:
@@ -155,7 +155,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -164,3 +164,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+ls-command Desktop-argument flag--a prompt-$
