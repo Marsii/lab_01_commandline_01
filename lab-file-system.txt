@@ -11,15 +11,15 @@ Follow the instructions line-by-line.
 ==========
 1. Open a new terminal window.
 ----------
-
+no output
 ==========
 2. Create a directory called mtec1002.
 ----------
-
+no output
 ==========
 3. Change your directory so that you're in mtec1002.
 ----------
-
+~/mtec1002
 ==========
 4. Type:
 
@@ -32,7 +32,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
+/c/Users/N/mtec1002
 
 ==========
 5. Type:
@@ -43,7 +43,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals/
 
 ==========
 6. Type:
@@ -54,7 +54,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals/  food/
 
 ==========
 7. Type:
@@ -65,7 +65,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals/  foo/  food/
 
 ==========
 8. Type:
@@ -76,7 +76,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+~/mtec1002/foo/bar/baz/qux
 
 ==========
 9. Type:
@@ -87,6 +87,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+/c/Users/N/mtec1002/foo/bar
 
 
 ==========
@@ -98,6 +99,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+/c/Users/N/mtec1002/foo/bar/baz/qux
 
  
 ==========
@@ -109,7 +111,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/N/mtec1002
 
 ==========
 12. Type:
@@ -120,7 +122,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
+total 0
+drwxr-xr-x 1 N 197613 0 Sep  1 19:57 foo/
 
 
 ==========
@@ -132,7 +135,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/N
 
 ==========
 14. Type:
@@ -143,7 +146,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/N
 
 ==========
 15. Type:
@@ -154,7 +157,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/N
 
 ==========
 15. Type:
@@ -165,7 +168,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/N/mtec1002
 
 ==========
 16. Type:
@@ -175,13 +178,13 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
+ericpc
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+$ pwd
 
 ==========
 17b. If you're not in the right directory, type the following command:
@@ -191,7 +194,7 @@ cd ~/mtec1002
 Otherwise skip this question/step!
 ----------
 
-
+<skipped>
 
 ==========
 18. Create the following directories, with each one inside each other.  The first one, pinapple, is the inner most:
@@ -204,6 +207,7 @@ lemon
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
 
+$ mkdir -p pineapple/orange/strawberry/lemon
 
 
 ==========
@@ -212,7 +216,7 @@ Use only one command to make all of these new directories.  Write what command y
 Write the command you used to create the directory below:
 ----------
 
-
+$ mkdir aardvark
 
 ==========
 20. List the files and directories in the current directory using the long format.  
@@ -220,7 +224,7 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
+drwxr-xr-x 1 N 197613 0 Sep  1 20:13 aardvark/
 
 ==========
 21. Make 3 directories nested within each other:
@@ -232,7 +236,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+ mkdir -p foo/bar/baz
 
 ==========
 22. Change your directory so that you're in the inner most directory (baz)
@@ -240,51 +244,52 @@ What command did you use?
 What command did you use?
 ----------
 
-
+$ cd foo/bar/baz
 
 ==========
 23. Change your directory so that you're two directories up (foo)
 
 What command did you use?
 ----------
-
+../..
 
 ==========
 24. What command is used to delete empty directories?
 ----------
 
-
+rmdir
 
 ==========
 25. What command is used to print out your current working directory?
 ----------
 
-
+pwd
 
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
 
-
+ls -l
 
 ==========
 27. What's the shortcut for home directory?
 ----------
 
-
+cd ~
 
 ==========
 28. What's a pathname?
 ----------
 
-
+the way to a directory
 
 ==========
 29. What's a directory?
 ----------
 
-
+a folder
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/c/Users/N/Downloads
